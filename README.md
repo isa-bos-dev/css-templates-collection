@@ -1,7 +1,6 @@
 # 📚 CSS Templates Collection
 
-Este repositorio es una colección de **trucos y tips de CSS** que he recopilado de redes sociales como Instagram, Twitter, TikTok y más. Cada tip está organizado y explicado para que puedas implementarlo rápidamente en tus proyectos. Es un recurso ideal tanto para desarrolladores principiantes como avanzados que quieren mejorar sus habilidades de CSS.
-
+Este repositorio es una colección de **trucos y tips de CSS** que he recopilado. 
 ---
 
 ### 🌟 ¿Por qué este repositorio?

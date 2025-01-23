@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive-cards</title>
+    <style>
+        .parent {
+            width: 100%;
+            /* Ocupa el ancho completo del contenedor padre */
+            display: grid;
+            /* Activa CSS Grid */
+            grid-template-columns: repeat(auto-fit, 250px);
+            /* Repite columnas de 300px */
+            gap: 20px;
+            /* Espacio entre tarjetas */
+            justify-content: center;
+            /* Centra las columnas en el contenedor */
+        }
+
+        .child {
+            width: 250px;
+            /* Ancho de cada tarjeta */
+            height: 300px;
+            /* Altura de cada tarjeta */
+            background-color: #aec7da;
+            /* Color de fondo para distinguir */
+            display: flex;
+            /* Centrar contenido en la tarjeta */
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5em;
+            border: 1px solid #242020;
+            /* bordes para mayor claridad */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child">Card 1</div>
+        <div class="child">Card 2</div>
+        <div class="child">Card 3</div>
+        <div class="child">Card 4</div>
+        <div class="child">Card 5</div>
+        <div class="child">Card 6</div>
+        <div class="child">Card 7</div>
+        <div class="child">Card 8</div>
+    </div>
+</body>
+
+</html>
